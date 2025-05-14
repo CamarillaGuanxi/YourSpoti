@@ -29,7 +29,7 @@ class Service {
         const userStore = useUserStore();
         if (!userStore.isLoggedIn || userStore.isGoogleTokenExpired || userStore.isSpotifyTokenExpired) {
             try {
-                const response = await this.makeRequest(`${api}/authentication/`, 'GET');
+                const response = await this.makeRequest(`${api}/authentication/`, 'POST');
                 const data = await response.json();
                 window.location.href = data.authURL; // Redirigir al usuario
             } catch (error) {

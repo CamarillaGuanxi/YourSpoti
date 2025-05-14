@@ -27,7 +27,6 @@ const handleLoginClick = () => {
         <div class="black-backgorund">
             <div class="logo-container">
                 <img src="../assets/Logo Black.png" alt="Logo" class="logo" />
-                <h1 class="app-name">Your Spotify</h1>
             </div>
 
             <main class="content">

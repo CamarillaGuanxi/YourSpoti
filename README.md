@@ -60,9 +60,6 @@ Este frontend se comunica con el backend implementado en **Express.js**. Asegúr
 
 Más detalles del backend en: [yourspoti-backend](https://github.com/CamarillaGuanxi/YourSpotiBack)
 
-## 📸 Capturas (opcional)
-
-> Puedes agregar imágenes aquí para mostrar cómo se ve tu app.
 
 ## ✍️ Autor
 

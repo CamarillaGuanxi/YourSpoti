@@ -1,39 +1,71 @@
-# YourSpoti
+# 🎵 YourSpoti – Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+**YourSpoti** es una aplicación web desarrollada con **Vue.js** que permite a los usuarios **migrar fácilmente playlists entre YouTube y Spotify**. Este repositorio contiene el código fuente del **frontend**, que actúa como interfaz gráfica del proyecto.
 
-## Recommended IDE Setup
+## 🚀 Características
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Autenticación mediante **OAuth 2.0** con YouTube y Spotify.
+- Interfaz intuitiva y amigable para seleccionar listas de reproducción.
+- Comunicación directa con el backend mediante una **API RESTful**.
+- Migración automática de canciones y listas entre plataformas.
+- Implementado con **Vue.js**, **TypeScript**, y buenas prácticas de desarrollo web.
 
-## Type Support for `.vue` Imports in TS
+## 🛠️ Instalación
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### 1. Clonar el repositorio
 
-## Customize configuration
+```bash
+git clone https://github.com/CamarillaGuanxi/YourSpoti
+cd YourSpoti
+```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 2. Instalar dependencias
 
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 3. Iniciar el servidor de desarrollo
 
-```sh
+```bash
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+> La aplicación estará disponible por defecto en: `http://localhost:5173`
 
-```sh
-npm run build
-```
+## 🌐 Estructura del Proyecto
 
-### Lint with [ESLint](https://eslint.org/)
+El frontend contiene tres vistas principales:
 
-```sh
-npm run lint
-```
+- **Página de inicio:** permite al usuario autenticarse en las plataformas.
+- **Selección de plataforma:** elige entre migrar desde YouTube o Spotify.
+- **Gestión de playlists:** muestra listas disponibles y permite iniciar la migración.
+
+Incluye además:
+
+- Un **servicio HTTP** para conectarse con el backend Express.
+- Archivos `.ts` con definición de tipos para mejorar el mantenimiento del código.
+
+## 📦 Tecnologías utilizadas
+
+- **Vue.js 3**
+- **TypeScript**
+- **Axios**
+- **OAuth 2.0**
+- **Vite / Vue CLI**
+
+## 📡 Backend
+
+Este frontend se comunica con el backend implementado en **Express.js**. Asegúrate de que el backend esté corriendo correctamente y que esté habilitado el CORS para permitir solicitudes desde el frontend.
+
+Más detalles del backend en: [yourspoti-backend](https://github.com/CamarillaGuanxi/YourSpotiBack)
+
+## 📸 Capturas (opcional)
+
+> Puedes agregar imágenes aquí para mostrar cómo se ve tu app.
+
+## ✍️ Autor
+
+- **Valentino Dominguez Rabanal**  
+  Proyecto final de asignatura – IOT
+
